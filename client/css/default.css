@@ -1,0 +1,94 @@
+@import url("./navbar.css");
+@import url("./sidebar.css");
+@import url("./main.css");
+@import url("./qna.css");
+@import url("./result.css");
+@import url("./home.css");
+@import url("./choices.css");
+@import url("./qna.css");
+@import url("./animation.css");
+@import url("./loading.css");
+
+/* ===== 변수 구간 ===== */
+:root {
+  --color-main: #a4a5cc;
+  --color-sub: #d6d6ff;
+  --color-dark: #75769b;
+  --color-emph: #f10f5f;
+  --color-text: #281812;
+
+  --color-light-bg: whitesmoke;
+
+  --font-code: "Nanum Gothic Coding", monospace;
+
+  --font-size-title: 44px;
+  --font-size-subtitle: 32px;
+  --font-size-tag: 26px;
+  --font-size-larger: 20px;
+  --font-size-text: 18px;
+
+  --height-toolbar: 68px;
+}
+
+/* ===== 리셋 구간 ===== */
+
+body {
+  margin: 0;
+  font-family: "Do Hyeon", sans-serif;
+
+  /* 개발용 설정 */
+  /* min-height: 150vh; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+strong,
+em {
+  font-weight: inherit;
+  font-style: normal;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+dl {
+  margin: 0;
+}
+dd {
+  margin: 0;
+  display: inline;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+th {
+  font-weight: normal;
+}
+
+address {
+  font-style: inherit;
+}

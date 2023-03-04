@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+  .main-body {
+    display: flex;
+    width: 100%;
+  }
+
+  .status {
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+
+  .qBox {
+    display: flex;
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-body {
+    display: flex;
+    flex-basis: 90%;
+  }
+
+  .status {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  .qBox {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+}
+
+#qna {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.qBox {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.answerList {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  border: 0px;
+
+  font-size: 28px;
+  margin: 12px 0px;
+}
+
+.answerList:hover,
+.answerList:focus {
+  background-color: #a4a5cc;
+  color: whitesmoke;
+}
+.status {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.answerBox {
+  width: 50%;
+
+  margin-bottom: 23%;
+}

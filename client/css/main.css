@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  margin-top: 20px;
+  font-size: 52px;
+  text-align: center;
+}
+
+.description {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+}
+.startBtn {
+  color: white;
+  background-color: #a4a5cc;
+  font-size: 30px;
+  border: 0px;
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.startBtn:hover,
+.startBtn:focus {
+  background-color: whitesmoke;
+  color: #a4a5cc;
+}

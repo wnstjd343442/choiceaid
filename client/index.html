@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Joon" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <!-- sns share -->
+
+    <meta property="og:title" content="Choiceaid" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:description" content="Choiceaid" />
+
+    <title>Choiceaid</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/default.css" />
+
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      //Kakao.init(JavaScript Key);
+      //Kakao.isInitialized();
+    </script>
+  </head>
+
+  
+    <!-- nav -->
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="#"
+          >Cho<span class="ice">ice</span><span class="aid">aid</span></a
+        >
+      </div>
+
+      <form class="search">
+        <input
+          type="text"
+          class="searchbox"
+          placeholder="Search for the decisions you are thinking about!"
+        />
+        <input type="submit" class="searchbtn" value="Search" />
+      </form>
+    </nav>
+
+    <div class="container">
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <ul class="links">
+          <li><a href="">Home</a></li>
+          <li><a href="">Choices</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+      </aside>
+
+      <!-- main-body -->
+     <section class="main-body">
+      <section id="main" >
+        <h1 class="title">A sport for me these days</h1>
+       <p class="description">With a few questions, Choiceaid recommend a sport for you these days.</p>
+
+        <button type="button" class="startBtn" onclick="js:begin()">Start</button>
+      </section>
+      <section id="qna">
+        <div class="status">
+        
+        </div>
+        <div class="qBox"></div>
+
+        <div class="answerBox"></div>
+      </section>
+       
+      <section id="loading" >
+        <p class="loading-p">loading...</p>
+      </section>
+      
+      
+      
+      
+      
+      <section id="result" class="">
+        <img src=""/>
+        <h1 class="resultTitle"></h1>
+        <div class="resultDes">
+        <h2 class="resultanswer">
+
+        </h2>
+      </div>
+        <div class="buttons">
+        <button type="button" class="gohome" >
+          <a href="/index.html">Go home</a>
+
+        </button>
+        <button type="button" class="kakao" onclick="js:setShare()">
+          Share
+        </button>
+      </div>
+      </section>
+    
+    </section>
+    <!-- container -->
+    
+    </div>
+  
+      <script src="./js/data.js" charset="utf-8"></script>
+      <script src="./js/start.js" charset="utf-8"></script>
+      <script src="./js/share.js" charset="utf-8"></script>
+    </div>
+  </body>
+</html>

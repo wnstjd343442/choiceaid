@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+  .resultDes {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .resultTitle {
+    font-size: 50px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+
+  .resultanswer {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 769px) {
+  .resultDes {
+    height: 100%;
+    width: 80%;
+  }
+  .resultanswer {
+    font-size: 45px;
+  }
+}
+
+#result {
+  display: none;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+#shareResult {
+  background-color: whitesmoke;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultTitle {
+  font-size: 50px;
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.resultDes {
+  background-color: white;
+  border-radius: 20px;
+}
+.buttons {
+}
+.kakao {
+  color: white;
+  background-color: #fee500;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500;
+}
+
+.gohome {
+  color: white;
+  background-color: #a4a5cc;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: #a4a5cc;
+}
